@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  margin-top: 50px;
+}
+
+body{
+  background-color: darkblue;
+
 }
 
 .App-logo {
@@ -35,4 +41,57 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+button{
+  margin-top:10px;
+  font-size: 30px;
+  color: white;
+  background-color: black;
+}
+
+input{
+  width: 300px;
+  font-size: 30px;
+  color: darkgoldenrod;
+  background-color: darkslategray;
+  padding: 4px 10px 4px 10px;
+}
+
+.type{
+  border: 2px green solid;
+  margin-right: 5px;
+  padding: 2px 5px 2px 5px;
+}
+
+.typeDiv{
+  display: flex;
+  justify-content: center;
+  color: chartreuse;
+}
+
+.innerTypeDiv{
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.weakness{
+  border: 2px red solid;
+  margin-right: 5px;
+  padding: 2px 5px 2px 5px;
+}
+
+.weaknessDiv{
+  display: flex;
+  justify-content: center;
+  color: rgb(237, 64, 142);
+}
+
+.innerWeaknessDiv{
+  display: flex;
+    align-items: center;
+    margin-left: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
